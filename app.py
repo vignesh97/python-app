@@ -12,7 +12,7 @@ def healthcheck():
 @app.route('/', methods=['GET'])
 def appcheck():
     print("application is running")
-    return 'Test Application is running'
+    return 'Test Application is running- Concourse'
 
 @app.route('/webservice1', methods=['GET'])
 def webservice1():
