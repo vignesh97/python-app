@@ -6,7 +6,7 @@ from flask import request
 app = Flask(__name__)
 @app.route('/healthcheck', methods=['GET'])
 def healthcheck():
-    print("/healthcheck  triggered")
+    print("/healthcheck test triggered")
     return 'success'
 
 @app.route('/', methods=['GET'])
